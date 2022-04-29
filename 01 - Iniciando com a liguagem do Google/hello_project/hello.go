@@ -26,4 +26,26 @@ func main() {
 	//para isso foi criado a função Scan
 	fmt.Scan(&comando)
 
+	//03
+	//no go eu não preciso colocar parenteses
+	//toda checagem de (if) deve retornar um true ou false (todas expressão)
+	if comando == 1 {
+
+	} else if comando == 2 {
+
+	} else if comando == 0 {
+
+	}
+
+	switch comando {
+	case 1:
+
+	case 2:
+
+	case 0:
+
+	default:
+
+	}
+
 }
